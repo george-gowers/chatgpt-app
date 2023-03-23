@@ -70,3 +70,11 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# new gems george
+
+gem 'openai'
+
+gem "ruby-openai"
+
+gem "simple_form"
