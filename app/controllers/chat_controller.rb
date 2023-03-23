@@ -1,7 +1,6 @@
 class ChatController < ApplicationController
 
   def my_chat
-    # @prompt = ""
     @prompt = params[:prompt]
     client = OpenAI::Client.new
     response = client.chat(
